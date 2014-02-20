@@ -1,5 +1,5 @@
 {
-  "name": "dom-emitter",
+  "name": "jkroso-dom-emitter",
   "description": "Manage the events of a DOM element",
   "version": "0.7.0",
   "keywords": [
@@ -9,9 +9,13 @@
     "dom",
     "emitter"
   ],
-  "dependencies": {},
-  "license": "MIT",
-  "scripts": [
-    "index.js"
-  ]
+  "dependencies": {
+    "jkroso-unique-selector": "git://github.com/npmcomponent/jkroso-unique-selector.git",
+    "jkroso-dom-event": "git://github.com/npmcomponent/jkroso-dom-event.git",
+    "component-event": "git://github.com/npmcomponent/component-event.git",
+    "component-query": "git://github.com/npmcomponent/component-query.git",
+    "jkroso-emitter": "git://github.com/npmcomponent/jkroso-emitter.git",
+    "yields-merge": "git://github.com/npmcomponent/yields-merge.git"
+  },
+  "license": "MIT"
 }

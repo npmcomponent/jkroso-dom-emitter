@@ -1,10 +1,10 @@
 
 var emitter = require('emitter/light').prototype
-var unique = require('unique-selector')
-var domEvent = require('dom-event')
-var query = require('query')
-var event = require('event')
-var merge = require('merge')
+var unique = require('jkroso-unique-selector')
+var domEvent = require('jkroso-dom-event')
+var query = require('component-query')
+var event = require('component-event')
+var merge = require('yields-merge')
 var own = {}.hasOwnProperty
 var emit = emitter.emit
 var off = emitter.off
